@@ -48,7 +48,7 @@ public class Line {
 	}
 
 	public int getEndY() {
-		return this.end.getX();
+		return this.end.getY();
 	}
 	public void setEndX(int endX) {
 		this.end.setX(endX);

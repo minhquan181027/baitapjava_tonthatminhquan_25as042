@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	Point p2= new Point(2, 7);
 	Line l2 = new Line(p1, p2);
 	System.out.println(l2);
-	System.out.printf("độ dài l2 là: %n.2f%n",l2.getLength());
+	System.out.println("độ dài l2 là:"+l2.getLength());
 	System.out.println("góc nghiêng l2 là:"+l2.getGradient());
 }
 }
